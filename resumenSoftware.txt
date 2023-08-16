@@ -1,0 +1,3 @@
+- Sistema operativo
+- Antivirus
+- Procesador de texto

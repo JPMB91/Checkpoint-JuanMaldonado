@@ -1,0 +1,16 @@
+git init
+git remote add origin https://github.com/JPMB91/Checkpoint-JuanMaldonado.git
+git commit -m "commit 01 de JuanMaldonado"
+git add .
+git commit -m "commit 01 de JuanMaldonado"
+git push origin main
+git checkout -b feature
+mkdir SeguridadInformatica
+touch Hardware/resumen.txt SeguridadInformatica/resumen.txt Software/resumen.txt
+git add .
+git commit -m "commit 02 JuanMaldonado"
+git push origin feature
+git checkout main
+git mv main.js resumenHardware.txt
+git mv index.html resumenSoftware.txt
+history
